@@ -1,0 +1,102 @@
+*{
+-webkit-box-sizing: border-box;
+
+}
+.navegacion{
+width: auto;
+margin: auto;
+background: #ffffff;
+}
+
+.navegacion ul{
+list-style: none;
+}
+
+.menu > li{
+position:relative;
+display: inline-block;
+}
+
+.menu > li >a{
+display: block;
+padding: 20px 30px;
+color: black;
+font-family: 'Comfortaa';
+text-decoration: none;
+}
+
+.menu li a:hover{
+color: blue;
+transition: all .3s;
+}
+
+.submenu{
+position: absolute;
+background: darkblue;
+width: 140%;
+padding: 5px;
+display: none;
+visibility: hidden;
+}
+
+.submenu li a{
+display: block;
+padding: 15px;
+color: #ffffff;
+font-family: 'Comfortaa';
+text-decoration: none; 
+}
+
+.menu li:hover .submenu{
+display: block;
+visibility: visible;
+opacity: 1;
+}
+
+.lupa{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+}
+.logo{
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;    
+}
+
+.facebook{
+    width: 30px;
+    margin-right: 100px;
+margin-top: 10px;
+    float: right;  
+    
+}
+.whats{
+    width: 30px;
+    margin-right: 30px;
+margin-top: 10px;
+    float: right;    
+}
+
+.instagram{
+    width: 30px;
+    margin-right: 30px;
+margin-top: 10px;
+    float: right;  
+}
+.banner{
+width: 100pxx;
+height: 400px;
+
+}
+.img_banner{
+margin: auto;
+display: block;
+width: 100%;
+max-width: 1200px;
+min-width: 5opx;
+}
+
+
